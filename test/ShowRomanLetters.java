@@ -14,6 +14,13 @@ public class ShowRomanLetters {
     }
 
     private String toRoman(int i) {
-        return "I";
+
+        if(i == 1){
+            return "I";
+        } else{
+            return "II";
+        }
+
+
     }
 }
