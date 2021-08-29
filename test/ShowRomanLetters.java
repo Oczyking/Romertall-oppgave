@@ -15,12 +15,14 @@ public class ShowRomanLetters {
 
     private String toRoman(int i) {
 
+        String roman = "";
         if(i == 1){
-            return "I";
+            roman = "I";
         } else{
-            return "II";
+            roman = "II";
         }
 
+        return roman;
 
     }
 }
