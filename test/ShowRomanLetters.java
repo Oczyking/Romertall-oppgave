@@ -13,12 +13,17 @@ public class ShowRomanLetters {
         assertEquals("II", toRoman(2));
     }
 
+    @Test
+    void shouldConvert3ToIII(){
+        assertEquals("III", toRoman(3));
+    }
+
     private String toRoman(int i) {
 
         String roman = "";
         if(i == 1){
             roman = "I";
-        } else{
+        } else if (i ==2 ){
             roman = "II";
         }
 
