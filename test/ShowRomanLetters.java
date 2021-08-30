@@ -25,6 +25,8 @@ public class ShowRomanLetters {
             roman = "I";
         } else if (i ==2 ){
             roman = "II";
+        } else{
+            roman = "III";
         }
 
         return roman;
