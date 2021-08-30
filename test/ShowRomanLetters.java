@@ -21,13 +21,14 @@ public class ShowRomanLetters {
     private String toRoman(int i) {
 
         String roman = "";
-        if(i == 1){
-            roman = "I";
-        } else if (i ==2 ){
-            roman = "II";
-        } else{
-            roman = "III";
-        }
+        String[] romanLetters = {"no such thing","I","II","III", "IV","V"};
+
+
+
+            for(int j = 0; j< romanLetters.length; j++){
+                roman = romanLetters[i];
+            }
+
 
         return roman;
 
